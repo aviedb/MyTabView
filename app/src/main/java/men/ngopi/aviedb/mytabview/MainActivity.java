@@ -104,19 +104,20 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
 
-            if (position == 0) {
-                TabProfile tabProfile = new TabProfile();
-                return tabProfile;
-            } else {
-                TabSetting tabSetting = new TabSetting();
-                return tabSetting;
-            }
+            if (position == 0) return new TabProfile();
+            else return new TabSetting();
         }
 
         @Override
         public int getCount() {
             // Show 2 total pages.
             return 2;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            if (position == 0) return "PROFILE";
+            else return "SETTING";
         }
     }
 }
