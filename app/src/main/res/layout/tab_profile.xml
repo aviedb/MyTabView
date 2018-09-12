@@ -80,13 +80,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="15dp">
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp">
 
                 <TextView
                     android:id="@+id/username"
@@ -100,7 +103,6 @@
                     android:id="@+id/unameTF"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_marginBottom="5dp"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
                     <android.support.design.widget.TextInputEditText
@@ -116,7 +118,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
 
                 <TextView
                     android:id="@+id/jabatan"
@@ -130,8 +134,6 @@
                     android:id="@+id/jabatanTF"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
                     <android.support.design.widget.TextInputEditText
@@ -147,7 +149,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
 
                 <TextView
                     android:id="@+id/gender"
@@ -161,8 +165,6 @@
                     android:id="@+id/genderTF"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
                     <android.support.design.widget.TextInputEditText
@@ -178,7 +180,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp">
 
                 <TextView
                     android:id="@+id/email"
@@ -192,8 +196,6 @@
                     android:id="@+id/emailTF"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
                     <android.support.design.widget.TextInputEditText
@@ -209,7 +211,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/save"/>
+                android:text="@string/save"
+                android:layout_marginBottom="10dp"/>
 
         </LinearLayout>
 

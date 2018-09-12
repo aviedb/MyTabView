@@ -7,13 +7,13 @@
     <string name="path">Path</string>
     <string name="browse">Browse</string>
     <string name="change">Change</string>
-    <string name="username">Username\t\t\t:</string>
+    <string name="username">Username\t\t:</string>
     <string name="uname_hint">Username</string>
-    <string name="jabatan">Jabatan\t\t\t\t\t\t:</string>
+    <string name="jabatan">Jabatan\t\t\t:</string>
     <string name="jabatan_hint">Jabatan</string>
-    <string name="gender">Gender\t\t\t\t\t\t\t:</string>
+    <string name="gender">Gender\t\t\t\t:</string>
     <string name="gender_hint">Gender</string>
-    <string name="email">Email\t\t\t\t\t\t\t\t:</string>
+    <string name="email">Email\t\t\t\t\t:</string>
     <string name="email_hint">Email</string>
     <string name="save">Save</string>
 </resources>
