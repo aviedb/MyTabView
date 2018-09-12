@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "men.ngopi.aviedb.mytabview"
         minSdkVersion 24
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -19,6 +19,8 @@ android {
 }
 
 dependencies {
+    api 'com.android.support:design:28.0.0-rc02'
+    implementation 'com.android.support:support-v4:28.0.0-rc02'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
     implementation 'com.android.support:design:28.0.0-rc02'
