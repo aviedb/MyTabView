@@ -16,6 +16,7 @@
     <string name="email">Email\t\t\t\t\t:</string>
     <string name="email_hint">Email</string>
     <string name="save">Save</string>
+    <string name="author">Avied Bachmid</string>
     <string-array name="jabatanSpinner">
         <item>Mahasiswa</item>
         <item>Dosen</item>
