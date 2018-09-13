@@ -1,5 +1,7 @@
 package men.ngopi.aviedb.mytabview;
 
+import android.support.design.button.MaterialButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -36,6 +38,15 @@ public class TabProfile extends Fragment {
         jabatanET.setText("      ");
         EditText genderET = rootView.findViewById(R.id.genderTF);
         genderET.setText("       ");
+
+        MaterialButton btn = rootView.findViewById(R.id.saveBtn);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Changes saved!", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
 
         return rootView;
     }

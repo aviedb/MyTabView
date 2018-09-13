@@ -18,6 +18,8 @@
     <string name="colon">:</string>
     <string name="save">Save</string>
     <string name="author">Avied Bachmid</string>
+    <string name="aviedb">\@aviedb</string>
+    <string name="fullname">Muhammad Avied Bachmid</string>
     <string-array name="jabatanSpinner">
         <item>Mahasiswa</item>
         <item>Dosen</item>
