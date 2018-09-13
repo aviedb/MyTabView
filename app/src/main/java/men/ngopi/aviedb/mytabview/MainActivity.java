@@ -1,5 +1,6 @@
 package men.ngopi.aviedb.mytabview;
 
+import android.graphics.Typeface;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -53,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
+
+        android.support.design.widget.TabItem txt = findViewById(R.id.tabItem);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/google_sans_medium.ttf");
 
     }
 

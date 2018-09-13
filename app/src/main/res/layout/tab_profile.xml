@@ -56,18 +56,22 @@
 
                     <android.support.design.button.MaterialButton
                         android:id="@+id/browseBtn"
+                        android:fontFamily="@font/google_sans_medium"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:text="@string/browse"
+                        android:textSize="13sp"
                         android:layout_weight="1"
                         app:icon="@drawable/ic_folder_open_black_24dp"/>
 
                     <android.support.design.button.MaterialButton
                         android:id="@+id/changeBtn"
+                        android:fontFamily="@font/google_sans_medium"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_marginStart="10dp"
                         android:text="@string/change"
+                        android:textSize="13sp"
                         android:layout_weight="1"
                         app:icon="@drawable/ic_done_black_24dp"/>
 
@@ -104,10 +108,15 @@
                 android:layout_marginBottom="5dp">
 
                 <TextView
-                    android:id="@+id/username"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uname_hint"
+                    android:textColor="@color/dark"/>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/username"
+                    android:text="@string/colon"
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
@@ -135,10 +144,15 @@
                 android:layout_marginBottom="5dp">
 
                 <TextView
-                    android:id="@+id/jabatan"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_hint"
+                    android:textColor="@color/dark"/>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/jabatan"
+                    android:text="@string/colon"
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
@@ -181,10 +195,15 @@
                 android:layout_marginBottom="5dp">
 
                 <TextView
-                    android:id="@+id/gender"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_hint"
+                    android:textColor="@color/dark"/>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/gender"
+                    android:text="@string/colon"
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
@@ -227,10 +246,15 @@
                 android:layout_marginBottom="10dp">
 
                 <TextView
-                    android:id="@+id/email"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_hint"
+                    android:textColor="@color/dark"/>
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/email"
+                    android:text="@string/colon"
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
@@ -251,6 +275,7 @@
             </LinearLayout>
 
             <android.support.design.button.MaterialButton
+                android:fontFamily="@font/google_sans_medium"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"

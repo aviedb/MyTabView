@@ -15,6 +15,7 @@
     <string name="gender_hint">Gender</string>
     <string name="email">Email\t\t\t\t\t:</string>
     <string name="email_hint">Email</string>
+    <string name="colon">:</string>
     <string name="save">Save</string>
     <string name="author">Avied Bachmid</string>
     <string-array name="jabatanSpinner">
