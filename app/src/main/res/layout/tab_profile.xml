@@ -96,7 +96,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="15dp"
@@ -120,15 +120,14 @@
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
                         android:singleLine="true"
-                        android:hint="@string/uname_hint"
-                        />
+                        android:hint="@string/uname_hint" />
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
@@ -142,25 +141,39 @@
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
-                <android.support.design.widget.TextInputLayout
-                    android:id="@+id/jabatanTF"
-                    android:layout_height="wrap_content"
+                <FrameLayout
                     android:layout_width="match_parent"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    android:layout_height="wrap_content">
 
-                    <android.support.design.widget.TextInputEditText
+                    <android.support.design.widget.TextInputLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
-                        android:singleLine="true"
-                        android:hint="@string/jabatan_hint"
-                        />
-                </android.support.design.widget.TextInputLayout>
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/jabatanTF"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:enabled="false"
+                            android:hint="@string/jabatan_hint"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/jabatanSpinner"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="2dp"/>
+
+                </FrameLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
@@ -174,25 +187,39 @@
                     android:layout_marginEnd="10dp"
                     android:textColor="@color/dark"/>
 
-                <android.support.design.widget.TextInputLayout
-                    android:id="@+id/genderTF"
-                    android:layout_height="wrap_content"
+                <FrameLayout
                     android:layout_width="match_parent"
-                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+                    android:layout_height="wrap_content">
 
-                    <android.support.design.widget.TextInputEditText
+                    <android.support.design.widget.TextInputLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
-                        android:singleLine="true"
-                        android:hint="@string/gender_hint"
-                        />
-                </android.support.design.widget.TextInputLayout>
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/genderTF"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:enabled="false"
+                            android:hint="@string/gender_hint"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/genderSpinner"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="2dp"/>
+
+                </FrameLayout>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
