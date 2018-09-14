@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
 import android.widget.Switch;
 
 public class TabSetting extends Fragment {
@@ -28,6 +29,9 @@ public class TabSetting extends Fragment {
                         .setAction("Action", null).show();
             }
         });
+
+        RadioButton radioButton = rootView.findViewById(R.id.lightRB);
+        radioButton.setChecked(true);
 
         return rootView;
     }
