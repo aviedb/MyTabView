@@ -9,14 +9,4 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="TextAppearance.MyApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
-        ...
-        <item name="fontFamily">@fonts/google_sans_medium.ttf</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">64sp</item>
-        <item name="android:letterSpacing">0</item>
-        ...
-    </style>
-
 </resources>

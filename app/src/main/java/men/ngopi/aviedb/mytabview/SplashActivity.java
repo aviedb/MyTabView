@@ -29,15 +29,15 @@ public class SplashActivity extends AppCompatActivity {
         final Intent i = new Intent(this, MainActivity.class);
         Thread timer = new Thread(){
             public void run(){
-                try {
-                    sleep(3000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                finally {
-                    startActivity(i);
-                    finish();
-                }
+            try {
+                sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            finally {
+                startActivity(i);
+                finish();
+            }
             }
         };
 
